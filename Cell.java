@@ -1,10 +1,4 @@
-/*
-Student Name: Li Sing
-SID: 5480 5981
 
-This is a Class for each cells in Suduko ,total N*N cells.
-
- */
 package singli;
 
 import singli.Group;
