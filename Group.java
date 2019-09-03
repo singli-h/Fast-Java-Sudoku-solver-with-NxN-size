@@ -1,10 +1,6 @@
 /*
-Student Name: Li Sing
-SID: 5480 5981
-
 This is a self-defined class for row/column/group ->(r/c/g) 
 storing its candidate and sequence number.
-
  */
 package singli;
 
