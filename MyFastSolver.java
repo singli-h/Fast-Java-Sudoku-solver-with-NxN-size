@@ -1,20 +1,17 @@
 /*
-Student Name: Li Sing
-SID: 5480 5981
-
 This class is an implementation of the ISolver interface, providing a fast
 algorithm to solve a NxN Suduko puzzle
-
+5 methods is implemented according to the following website:
+https://www.smartersudoku.com/#/help/solving
 The following strategies are implemented:
-S1: private boolean s1(int c, int num)               at line 240
-    private boolean s1_2(int c, int num)             at line 256
-    private boolean s1_3(int c, int num)             at line 270
-S2: public boolean rolcolgpValid(int count, int num) at line 286
-S3: private void s3(int c)                           at line 308
-S4: private boolean s4(int c)                        at line 355
-S5: private boolean s5(int c)                        at line 400
-    private boolean s5_2(int c)                      at line 453
-
+S1 by number: private boolean s1(int c, int num)               at line 240
+              private boolean s1_2(int c, int num)             at line 256
+              private boolean s1_3(int c, int num)             at line 270
+S2 by group:  public boolean rolcolgpValid(int count, int num) at line 286
+S3 Naked pair:  private void s3(int c)                           at line 308
+S4 Hidden pair: private boolean s4(int c)                        at line 355
+S5 Interaction: private boolean s5(int c)                        at line 400
+                private boolean s5_2(int c)                      at line 453
  */
 package singli;
 
